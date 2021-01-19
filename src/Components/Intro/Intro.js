@@ -7,12 +7,16 @@ const Intro = () => (
 	<Container id="intro" className="intro card">
 		<Row>
 			<Col xs="auto" className="author-pic-wrapper">
-				<div className="author-pic" style={{ backgroundImage: `url(${pic})` }} />
+				<div
+					className="author-pic"
+					style={{
+						backgroundImage: `url("https://avatars3.githubusercontent.com/u/37283437?s=460&u=2a2c5c4c8b8db89ec19da727abba8daf277ba57e&v=4")`,
+					}}
+				/>
 			</Col>
 			<Col>
 				<h1>Hoang Anh's portfolio</h1>
-				<p>Computer Engineering @ Concordia University.</p>
-				<p>Specialized in Web Development and Software Architecture.</p>
+				<p>Studying B. Eng. in Computer Engineering at Concordia University.</p>
 				<p>Based in Montreal, Canada.</p>
 				<p>
 					<a

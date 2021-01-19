@@ -17,13 +17,13 @@ const About = () => (
 			</li>
 		</ul>
 		<br />
-		<h3>Tech stacks</h3>
+		<h3>Tech stack/Toolkit</h3>
 		<ul>
 			<li>Cloud Computing: AWS S3 + EC2, GCP AE + CE + Bucket</li>
 			<li>Frameworks: Jekyll (blog), React, Vue, Bootstrap, Sass, Electron</li>
-			<li>Languages: Python and C-lang</li>
-			<li>Machine Learning: Tensorflow (Python + JS)</li>
-			<li>Server: Apache2, Nginx, node, vanillaJS</li>
+			<li>Languages: C-lang family, Javascript, JSX, and Python</li>
+			<li>Machine Learning: Tensorflow (Python)</li>
+			<li>Server: Apache2, node</li>
 		</ul>
 		{/* <div className="gh-stats-wrapper">
 			<img
@@ -40,10 +40,7 @@ const About = () => (
 		<p>Vietnamese, English, French, Japanese, German.</p>
 		<br />
 		<h3>Hobbies</h3>
-		<p>
-			Photography, J-Pop, PC master race, gaming with friends, singing/playing guitar, digital
-			arts, writing.
-		</p>
+		<p>J-Pop, PC master race, guitar, audiophile, photography</p>
 	</Container>
 );
 

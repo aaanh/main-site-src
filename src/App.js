@@ -19,6 +19,7 @@ function App() {
 			<Contacts />
 			<About />
 			<Projects />
+			<SpecSheet></SpecSheet>
 			<Footer></Footer>
 		</div>
 	);

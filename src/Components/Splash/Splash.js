@@ -53,17 +53,17 @@ const Splash = () => (
 			{/* <h1 style={{color:"#ffffff"}}>view Hoang Anh's portfolio</h1> */}
 			<div>
 				<span style={{ color: "#334365", fontSize: "32pt" }} className="material-icons">
-					expand_more
+					&or;
 				</span>
 			</div>
 			<div>
 				<span style={{ color: "#334365", fontSize: "32pt" }} className="material-icons">
-					expand_more
+					&or;
 				</span>
 			</div>
 			<div>
 				<span style={{ color: "#334365", fontSize: "32pt" }} className="material-icons">
-					expand_more
+					&or;
 				</span>
 			</div>
 		</BounceInDownSpan>

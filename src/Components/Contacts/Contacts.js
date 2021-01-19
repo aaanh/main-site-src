@@ -10,14 +10,9 @@ const Contact = () => {
 			</div>
 			<div className="contact-content">
 				<p>
-					E-Mail: <code>hoanganh.theodore(at)icloud(dot)com</code>
-				</p>
-				<p>
-					Twitter: <a href="https://twitter.com/yeetusmagus/">@yeetusmagus</a>
-				</p>
-				<p>
-					Instagram:{" "}
-					<a href="https://instagram.com/iamnguyenhoanganh/">iamnguyenhoanganh</a>
+					E-Mail 1: <code>hoanganh(dot)theodore(at)icloud(dot)com</code>
+					<br></br>
+					E-mail 2: <code>a_en201(at)encs(dot)concordia(dot)ca</code>
 				</p>
 			</div>
 		</Container>

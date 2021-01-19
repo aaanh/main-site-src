@@ -29,6 +29,11 @@
 
 body {
 	overflow-x: hidden;
+	scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+	display: none;
 }
 
 html[data-theme="dark"] {
