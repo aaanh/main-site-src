@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import pic from "../../assets/pic1.JPG";
 import "./Intro.scss";
 
 const Intro = () => (
