@@ -9,9 +9,29 @@
 	}
 }
 
-// .research-papers-wrapper {
-// 	padding: 0 3rem 3rem 3rem;
-// }
+.research-papers-wrapper {
+	h3 {
+		color: black;
+	}
+}
+.awards-wrapper {
+	h3 {
+		color: black;
+	}
+}
+
+html[data-theme="dark"] {
+	.research-papers-wrapper {
+		h3 {
+			color: #00e498;
+		}
+	}
+	.awards-wrapper {
+		h3 {
+			color: #00e498;
+		}
+	}
+}
 
 @media (max-width: 600px) {
 	.container {

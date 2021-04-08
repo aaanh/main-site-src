@@ -13,6 +13,10 @@ const Contact = () => {
 					E-Mail 1: <code>hoanganh(dot)theodore(at)icloud(dot)com</code>
 					<br></br>
 					E-mail 2: <code>a_en201(at)encs(dot)concordia(dot)ca</code>
+					<br></br>
+					E-mail 3: <code>anhhoang(dot)nguyen(at)concordia(dot)ca</code>
+					<br></br>
+					LinkedIn: <code>aaanh</code>
 				</p>
 			</div>
 		</Container>

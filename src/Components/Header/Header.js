@@ -12,14 +12,14 @@ const Header = () => (
 			<Col>
 				<Nav.Link href="#intro">Intro</Nav.Link>
 			</Col>
-			<Col>
+			{/* <Col>
 				<Nav.Link href="#contact">Contact</Nav.Link>
-			</Col>
+			</Col> */}
 			<Col>
 				<Nav.Link href="#about">About</Nav.Link>
 			</Col>
 			<Col>
-				<Nav.Link href="#projects">Projects</Nav.Link>
+				<Nav.Link href="#experience">Experience</Nav.Link>
 			</Col>
 
 			<Col className="theme-switch-space">

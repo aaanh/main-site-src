@@ -3,14 +3,13 @@ import { Container, Col, Row } from "react-bootstrap";
 import "./Projects.scss";
 
 const Projects = () => (
-	<Container id="projects" className="projects card">
+	<Container id="experience" className="projects card">
 		<div className="section-header">
-			<h2>Projects</h2>
+			<h2>Experience</h2>
 		</div>
 		<br />
 		<div>
 			<Row style={{ fontWeight: "bold" }}>
-				<Col xs={1}>#</Col>
 				<Col>ID</Col>
 				<Col>Position</Col>
 				<Col xs={7}>Description</Col>
@@ -18,8 +17,7 @@ const Projects = () => (
 		</div>
 		<div>
 			<Row>
-				<Col xs={1}>1</Col>
-				<Col>Applied NLP (Concordia University)</Col>
+				<Col>SAC Research Group (Concordia University)</Col>
 				<Col>Research student</Col>
 				<Col xs={7}>
 					Assist research progress by running and reporting XLNet models on datasets.
@@ -28,11 +26,19 @@ const Projects = () => (
 		</div>
 		<div>
 			<Row>
-				<Col xs={1}>2</Col>
+				<Col>AITS (Concordia University)</Col>
+				<Col>Service Desk Operator</Col>
+				<Col xs={7}>
+					Frontline support for utilizing university's IT, network, and account resources.
+				</Col>
+			</Row>
+		</div>
+		<div>
+			<Row>
 				<Col>
 					<a href="https://islab.ca">Inertial Sensing Lab</a>
 				</Col>
-				<Col>Web Dev, DevOps</Col>
+				<Col>Web Dev, Software Dev</Col>
 				<Col xs={7}>
 					Applied machine learning on accelerometric data processing using Python and
 					Tensorflow.
@@ -64,7 +70,6 @@ const Projects = () => (
 		</div> */}
 		<div>
 			<Row>
-				<Col xs={1}>3</Col>
 				<Col>
 					<a href="http://github.com/aaanh/arduino-phys4eng-w2020.git">
 						Maze navigating vehicle
@@ -79,7 +84,6 @@ const Projects = () => (
 		</div>
 		<div>
 			<Row>
-				<Col xs={1}>4</Col>
 				<Col>
 					<a href="http://github.com/aaanh/mrca-sim-r.git">R project in Statistics</a>
 				</Col>
@@ -105,9 +109,18 @@ const Projects = () => (
 		</div> */}
 		<br /> <br />
 		<div className="research-papers-wrapper">
-			<h2>Research papers</h2>
-			<p>All the papers I (co-)authored.</p>
+			<h3>Authored academic papers</h3>
 			<a href="https://github.com/aaanh/researchpapers">Github Repository</a>
+		</div>
+		<div className="awards-wrapper">
+			<h3>Awards &amp; Honors</h3>
+			<ul>
+				<li>
+					FRQNT 2020 Stipend Recipient: For works on{" "}
+					<a href="https://islab.ca">Inertial Sensing Labs</a>, under Prof. Chris
+					Larnder's supervision (John Abbott College)
+				</li>
+			</ul>
 		</div>
 	</Container>
 );
